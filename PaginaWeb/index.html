@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneakers Shop</title>
+    <link rel="stylesheet" href="Css/Style.css">
+</head>
+
+<body>
+     <nav>
+        <li><a href="#Productos">Productos</a></li>
+        <li><a href="#Talles">Talles</a></li>
+        <li><a href="#Comprar">Como Comprar</a></li>
+        <li><a href="#Compra">Contactenme</a></li>
+        
+    </nav>
+    <div>
+        <p>Paso 1 : Nos dirigimos a "Productos" para seleccionar el modelo de zapatilla que estamos dispuestos a comprar.</p>
+    </div>
+    
+    <div id="Productos"><img src="Img/Productos.jpg" alt="Productos">
+        <p>Paso 2: Luego de tener ya seleccionado el modelo de zapatilla a comprar, nos dirigimos a "Talles" para seleccionar el que se adapte a nuestro pie.</p>
+    </div>
+    
+    <div id="Talles"><img src="Img/Talles.jpg" alt="Talles">
+        <p> Paso 3: Ya teniendo en mente modelo y talle de zapatilla procedemos a comprar, para esto vamos a "Como Comprar" donde tendremos toda la informacion necesaria.</p>
+    </div>
+    
+    <div id="Comprar"><img src="Img/ComoComprar.jpg" alt="Comprar">
+        <p>Paso 4: Teniendo un vistazo de como comprar y los metodos de pago que se pueden realizar procedemos a rellenar los datos en la seccion "Contactenme".</p>
+    </div>
+    <form id="Compra">
+        <ul class= formularioCompra>
+            <li>
+                <p>Contactenme</p>
+                <input type="text" name="nombre" placeholder="Nombre">
+            </li>
+            <li>
+                <br><input type="email" name="mail" placeholder="mail"><br/>
+            </li>
+            <li>
+                <br><button>Contactenme</button><br/>
+            </li> 
+            <li>
+            <span id="mensajeForm"></span>
+            </li>
+        </ul> 
+    </form>
+    <script src="Js/menubutton.js"></script>
+</body>
+</html>
