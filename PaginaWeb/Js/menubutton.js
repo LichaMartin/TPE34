@@ -11,6 +11,6 @@ function enviarSugerencia(e) {
     let form = new FormData(formulario);
     let nombre = form.get("nombre");
     let mensaje = document.querySelector("#mensajeForm");
-    mensaje.innerHTML = `Hola, ${nombre}. Se le contactara en la brevedad. ¡Gracias!`;
+    mensaje.innerHTML = `Hola, ${nombre}. Lo contactaremos en la brevedad. ¡Gracias!`;
 }
 
