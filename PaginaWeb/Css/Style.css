@@ -3,6 +3,7 @@
 }
 body{
     background-color: cornsilk;/*background body*/
+    margin: 20px;
 }
 /* BARRA DE NAVEGACION*/
 
@@ -40,23 +41,34 @@ nav li a:hover {
 }
 input, button{
     border: 2px solid #ccc;
-    border-radius: 4px;
+    border-radius: 10px;
     padding: 10px;
 }
 
 .formularioCompra{
     list-style: none;
-    background-color: cornsilk;
+    background-color: #092327;
 }
 span{
-	font-size: 19px;
+	font-size: 25px;
 }
 /*Texto Ayuda*/
 p {
     color: white;
-    font-size: 19px;
+    font-size: 25px;
     text-align: center;
-    background-color: red;
+    background-color: #000000;
+}
+
+#Productos{
+    width: 80%;
+}
+
+#Productos, img{
+    margin: 10px;
+    justify-content: center;
+    display: block;
+    width: 100%;
 }
 
     
