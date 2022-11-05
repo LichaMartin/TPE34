@@ -1,8 +1,8 @@
 *{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif; /*fuente para toda la pagina*/
 }
 body{
-    background-color: cornsilk;
+    background-color: cornsilk;/*background body*/
 }
 /* BARRA DE NAVEGACION*/
 
@@ -33,7 +33,6 @@ nav li a:hover {
 	background: #0581c9;
 }
 
-/*Java compras*/
 #Compra{
     text-align: center;
     padding: 10px;
