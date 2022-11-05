@@ -1,0 +1,45 @@
+Buenas practicas en la programación
+	A continuación se nombraran practicas que, en caso de seguirlas correctamente, generaran un código legible y prolijo. Este permitirá que si alguien ajeno al proyecto lo lee entienda fácilmente que es lo que el programador decidió hacer y cómo funciona su código.
+
+1.- Definición de requisitos. Alcance del proyecto.
+Puede parecer una tontería, al menos debo conocer que tengo que programar y para qué va a servir, pero no es así, la mayor parte de los clientes no saben realmente qué es lo que quieren y mucho menos como implementarlo en un desarrollo. Merece la pena sentarse con el cliente y los usuarios finales de la aplicación y definir a dónde se quiere llegar y cómo lo haremos. Es imprescindible redactar un documento de alcance y que todos los participantes del proyecto (programadores, analistas, jefes de proyecto, cliente que solicita el desarrollo y usuarios finales que harán uso de la aplicación) estén totalmente de acuerdo. El análisis de unos requisitos y la redacción de un documento de alcance nos evitará más de un dolor de cabeza durante y en la finalización del proyecto.
+
+2.- Dividir los desarrollos en fases o entregables.
+Una vez redactado un alcance, es conveniente separar en proyecto en secciones o fases que permitan al cliente ir viendo resultados durante el desarrollo. Si un proyecto tiene una duración de 10 meses, no podemos tener al cliente sin ver nada durante los 10 meses de desarrollo, hay que ir mostrando los resultados, cosa que también nos servirá para ir realizando determinados ajustes y no llegar al final del proyecto y el cliente nos haga cambiar más de la mitad de los desarrollos. Dividir el proyecto en fases, sprint o secciones nos permitirá marcarnos objetivos en periodos cortos e ir mostrando los resultados.
+
+3.- Elección de un IDE que se adapte a tus necesidades.
+Dependiendo del lenguaje de programación que vayamos a utilizar, será conveniente el uso de un Entorno de Desarrollo integrado (IDE) u otro, ya que cada IDE está enfocado a uno o varios lenguajes de programación. Por ejemplo, si vamos a programar en java, sería conveniente hacer uso de los IDE NetBeans o Eclipse, si vamos a hacerlo en Python podemos hacer uso de Atom o Visual Studio Code, si vamos a hacer un desarrollo en php o html podemos hacer uso de PhpStorm. Si, por el contrario, queremos hacer uso de un IDE que pueda servirnos para varios lenguajes de programación, podemos hacer uso de alguno que permita importar librerías y funciones de algún lenguaje concreto como es sublimetext.
+
+4.- Estandarizar las reglas del desarrollo.
+Cuándo vamos a comenzar con los desarrollos hay que definir nuestra forma de trabajar: La forma de llamar y definir las funciones, las variables, el nombre de los ficheros, atributos, etc. En un buen código se distinguen fácilmente estos elementos. Un código que no sigue alguna normalización resulta más complicado de mantener.
+
+5.- DRY: Dont repeat yourself.
+No repitas código, modulariza tus desarrollos. Repetir partes de código a lo largo de un desarrollo solo sirve para dificultar el mantenimiento y aumentar la probabilidad de cometer errores. Agrupa en funciones las operaciones que se repitan, y aíslala del resto del código, el esfuerzo necesario para el mantenimiento del código disminuirá. Si estos trozos de código son requeridos por otros ficheros, no solo elimínalos del flujo natural, si no que colócalo en un fichero aparte y accesible por todos los elementos del código.
+
+6.- No inventes.
+Si ya se disponen de módulos y librerías ya testeadas y optimizadas, no pierdas el tiempo en un desarrollo. Los IDE actuales disponen de librerías que te ayudarán en tus desarrollos.
+
+7.- Comenta tu código.
+Para facilitar las modificaciones y mantenimiento, pero recuerda, un buen código es aquel que no necesita comentarios. Redacta sentencias simples e intenta elaborar una solución sencilla y corta. Cuanto más corta sea, menos errores se producirán y más fácil será localizarlos y solventarlos.
+
+8.- Divide y vencerás.
+Divide los desarrollos complejos en varios más sencillos. Enrocarse en buscar una solución que abarque todas las posibilidades o funcionalidades te va a hacer perder mucho el tiempo. Divide el desarrollo en funcionalidades y prográmalas atendiendo a su función principal y a la integración con el resto.
+
+9.- Testeo de código.
+Realizarás muchas pruebas durante el desarrollo del software y sobre todo al final de este. Prepara una batería de pruebas que puedas ejecutar en cualquier momento. Muchas veces el ajuste de algunos elementos provoca alguna incongruencia con otros, con tu batería de pruebas debes poder detectar esto.
+
+10.- Optimización.
+No todas las instrucciones y módulos necesitan la misma capacidad de procesamiento intenta utilizar siempre las más sencillas.
+
+11.- Seguridad.
+Durante el desarrollo de nuestro software tenemos que tener en cuenta los siguientes puntos:
+
+El acceso a los ficheros (tanto de forma física, como permisos).
+La posibilidad de modificar el código en la misma ejecución o la inyección sql.
+Desbordamiento de buffer al hacer uso de un array sin tamaño controlado.
+Formateo de los datos de entrada (en formularios).
+Actualización del IDE y las funciones. Una función obsoleta puede originar un agujero de seguridad en nuestro código.
+Uso de contraseñas en el código. Las contraseñas deben estar cifradas y en la base de datos.
+
+12.- Documentación.
+Durante los desarrollos intenta documentar todo lo que haces para facilitar el entendimiento del desarrollo y funcionamiento del software al personal del proyecto y futuras personas que trabajen en él.
